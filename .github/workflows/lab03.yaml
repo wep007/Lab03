@@ -16,5 +16,6 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         env:
           SONAR_TOKEN: ${{ secrets.WEP_SECRET_LAB04 }}
+      - run: echo $SONAR_TOKEN
           
           
