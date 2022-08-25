@@ -15,4 +15,6 @@ jobs:
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
-          SONAR_TOKEN: 586b17cc733113620b07cf3c9f679452108b3faa
+          SONAR_TOKEN: ${{ secrets.WEP_SECRET_LAB04 }}
+          
+          
